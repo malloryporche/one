@@ -621,7 +621,7 @@ BLOG
 }
 .member h1 {
   color: transparent;
-  -webkit-transform: translateY(180%);
+
 
   -webkit-transform: translateY;
   -webkit-transition-duration: 1.5s;
@@ -704,7 +704,6 @@ hr {
   display: inline-block;
   float: left;
   min-height: 318px;
-  -webkit-transform: translateY(150%);
   height: 100%;
   opacity: 0;
 
@@ -793,25 +792,30 @@ hr {
   padding-bottom: 65px;
   margin-bottom: 45px;
 }
-input[type="text"], textarea {
+input[type="text"], textarea, input[type="text"]:focus, textarea:focus {
   border: none;
   border-bottom: 2px white solid;
   color: #fff;
   font-weight: bolder;
   background-color: #2C2f36;
+}
+ {
 
 }
 input[type="submit"] {
   width: 100%;
   background-color: #2C2f36;
   border: 1px solid white;
-  
   font-size: 18px;
   text-align: center;
   margin-top: 45px;
   color: #fff;
   padding: 10px 0;
   letter-spacing: 0.15em;
+}
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #2C2f36;
 }
 .form ul {
   background: #2C2F36;
@@ -836,11 +840,10 @@ input[type="submit"] {
 /* FOOTER */
 .bmask h1 {
   text-transform: none;
-  padding: 25% 0 5%;
 }
 footer {
   background-color: #2C2f36;
-  padding: 121% 0 0 0;
+  padding: 465px 0 0 0;
   max-height: 497px;
   bottom: 0;
   width: 100%;
@@ -860,7 +863,7 @@ footer h1 {
   font-family: "Mr Bedfort";
 }
 footer p {
-  padding-top: 20%;
+  padding-top: 75px;
   color: #999;
   font-weight: 200;
   font-size: 12px;
